@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(99, 179, 206);
+    border-radius: 15px;
+    border-color: whitesmoke;
+
+    
+}
+.generatePokemonBtn {
+    color: yellow;
+    background-color: navy;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.name-heading {
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+.info-heading {
+    font-weight: bold;
+    align-self: center;
+    justify-self: center;
+}
+.pokeInfo {
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    margin: 15px;
+    margin-left: 10px;
+
+}
+.pokeImage {
+    
+}
+.pokeStats {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-data {
+    padding: 5px;
+    margin: 15px;
+}
+.ability-div {
+    display: flex;
+    flex-direction: row;
+}
